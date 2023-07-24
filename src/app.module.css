@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    color: white;
+}
+.main_container{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.header{
+    flex: 1;
+}
+.detail{
+    flex: 2;
+}
+.recommendation{
+    flex: 1;
+}
+
+
+
+::-webkit-scrollbar{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background: rgba(0, 0,0,0.6);
+    border-radius: 10px;
+}

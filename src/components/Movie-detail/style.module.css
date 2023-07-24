@@ -1,0 +1,11 @@
+.title{
+    font-size: 23px;
+    font-weight: 600    ;
+}
+.overview{
+    overflow-y: hidden;
+    height: 100px;
+}
+.overview:hover{
+    overflow-y: scroll;
+}

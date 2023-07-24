@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(144, 204, 207) 0%,transparent 80%);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img_title{
+    display: flex;
+}
+img{
+    margin-right: 5px;
+    height: 40px;
+}
+.subtitle{
+    white-space: nowrap;
+}

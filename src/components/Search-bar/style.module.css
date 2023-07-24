@@ -1,0 +1,25 @@
+.search{
+    border-radius: 11px;
+    height: 35px;
+    opacity: 0.8;
+    color: black;
+    border: 0;
+    padding: 10px;
+    padding-left: 40px;
+    white-space: nowrap;
+    background-color: rgb(139, 134, 134);
+}
+.search:focus{
+    outline: none;
+    border: wheat solid 1px;
+}
+
+.icon{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.search::placeholder{
+    color: rgb(255, 255, 255);
+}

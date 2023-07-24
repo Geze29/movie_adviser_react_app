@@ -1,0 +1,21 @@
+.container{
+    width: fit-content;
+    position: relative;
+    margin: 0 5px;
+    white-space: nowrap;
+}
+.container:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.image{
+    height: 160px;
+    border-radius: 10px;
+}
+.title{
+    position: absolute;
+    margin-top: -35px;
+    background-color: rgb(0, 0,0,0.7);
+    width: 99%;
+    padding: 7px;
+}
